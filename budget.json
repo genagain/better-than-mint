@@ -33,7 +33,6 @@
                     "wegmans",
                     "wholefds"
                 ],
-                "expected_paycheck_amount": 150,
                 "expected_monthly_amount": 300
             },
             "digital ocean": {
@@ -70,7 +69,6 @@
                 "substrings": [
                     "amanda"
                 ],
-                "expected_paycheck_amount": 75,
                 "expected_monthly_amount": 150
             }
         }
@@ -78,7 +76,6 @@
     "investments": [],
     "savings": [],
     "spending money": {
-        "expected_paycheck_amount": 425,
         "expected_monthly_amount": 850
     }
 }
