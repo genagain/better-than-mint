@@ -1,0 +1,81 @@
+{
+    "fixed_costs": [
+        {
+            "rent": {
+                "substrings": [
+                    "willow"
+                ],
+                "expected_monthly_amount": 2600
+            },
+            "utilities": {
+                "substrings": [
+                    "eversource"
+                ],
+                "expected_monthly_amount": 70
+            },
+            "internet": {
+                "substrings": [
+                    "comcast"
+                ],
+                "expected_monthly_amount": 97.5
+            },
+            "phone": {
+                "substrings": [
+                    "project fi",
+                    "google fi"
+                ],
+                "expected_monthly_amount": 90
+            },
+            "groceries": {
+                "substrings": [
+                    "instacart",
+                    "star market",
+                    "wegmans",
+                    "wholefds"
+                ],
+                "expected_monthly_amount": 300
+            },
+            "digital ocean": {
+                "substrings": [
+                    "digitalocean"
+                ],
+                "expected_monthly_amount": 6
+            },
+            "audible": {
+                "substrings": [
+                    "audible"
+                ],
+                "expected_monthly_amount": 16
+            },
+            "hosting": {
+                "substrings": [
+                    "namecheap"
+                ],
+                "expected_monthly_amount": 5
+            },
+            "mbta": {
+                "substrings": [
+                    "mbta"
+                ],
+                "expected_monthly_amount": 84.5
+            },
+            "gym": {
+                "substrings": [
+                    "bsc"
+                ],
+                "expected_monthly_amount": 70
+            },
+            "therapist": {
+                "substrings": [
+                    "amanda"
+                ],
+                "expected_monthly_amount": 150
+            }
+        }
+    ],
+    "investments": [],
+    "savings": [],
+    "spending money": {
+        "expected_monthly_amount": 850
+    }
+}
