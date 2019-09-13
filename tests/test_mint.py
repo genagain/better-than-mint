@@ -2,7 +2,10 @@
 # testing in general, but rather to support the `find_packages` example in
 # setup.py that excludes installing the "tests" package
 
-import betterthanmint
+from betterthanmint import mint
 
-def test_success():
-    assert True
+def test_get_transactions():
+    transactions = mint.get_transactions()
+    # TODO assert no duplicates
+    # TODO assert columns
+    assert type(transactions).__name__ == 'DataFrame'
