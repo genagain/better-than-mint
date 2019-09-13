@@ -56,14 +56,14 @@ In the `budget.json` file, type in the categories, their corresponding substring
 
 To run a report you must specify an start date as a command line argument like so
 ```
-$ python generate_report.py --start-date 2019-04-21
+$ python betterthanmint/generate_report.py --start-date 2019-04-21
 ```
 
 If you don't specify and end date, the report will set the end date to yesterday. 
 
 Optionally you can specify an end date like so
 ```
-$ python generate_report.py --start-date 2019-04-21 --end-date 2019-04-29
+$ python betterthanmin/generate_report.py --start-date 2019-04-21 --end-date 2019-04-29
 ```
 
 Running the either of the commands above will generate the files `summary_report.csv` and `maintaince.csv`
