@@ -18,6 +18,9 @@ __pycache__/
 # venv
 venv/
 
+# Chrome driver
+chromedriver
+
 # Credentials
 .credentials
 
