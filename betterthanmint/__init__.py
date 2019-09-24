@@ -1,3 +1,4 @@
+"""Entry point for the application script"""
 
 def main():
     """Entry point for the application script"""
