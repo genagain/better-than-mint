@@ -31,5 +31,11 @@ def test_get_transactions(monkeypatch):
         ]
     expected_columns = np.array(column_names, dtype=object)
     assert np.all(transactions.columns.values == expected_columns)
-    duplicate_check = transactions.duplicated(subset=['date', 'original_description', 'amount'])
+    duplicate_check = transactions.duplicated(
+        subset=[
+            'date',
+            'original_description',
+            'amount'
+            ]
+        )
     assert not np.all(duplicate_check)
